@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/dongrili/sc-config-repo.git
+        username: dongrili@outlook.com
+        password: phantasia@0201
+server:
+  port: 5900
